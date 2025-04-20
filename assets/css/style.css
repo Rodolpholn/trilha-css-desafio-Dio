@@ -14,7 +14,6 @@ body {
   line-height: 1.6;
 }
 
-/* Banner principal */
 .banner {
   background-image: url("../images/banner.png");
   background-size: cover;
@@ -88,7 +87,6 @@ body {
   color: #000;
 }
 
-/* Conteúdo principal */
 main {
   padding: 40px 20px;
 }
@@ -127,34 +125,32 @@ main {
   border-radius: 25px;
   background-color: #252525;
   color: #fff;
-  width: 100%;
+  width: 835px;
   max-width: 400px;
   text-align: center;
   font-size: 1rem;
   box-shadow: inset -2px 6px 4px 0px #00000040;
   display: inline-block;
   margin: 10px 0;
-  padding-left: 50px;
-  padding-right: 50px;
-  /* white-space: nowrap; Evita que o texto quebre a linha */
+  padding: 15px 30px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
 }
 
 .module span {
   color: #00bcd4;
 }
-
-/* Transforme o mundo */
 #transform-world {
   background-image: url("../images/woman-code.png");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* Imagem fica fixa no fundo */
+  background-attachment: fixed;
   padding: 100px 20px;
   text-align: left;
   position: relative;
-  border-top: 1px solid #33a8db; /* Borda superior */
-  border-bottom: 1px solid #33a8db; /* Borda inferior */
-  margin-top: 50px; /* Ajusta para que a borda superior não fique cortada */
+  border-top: 1px solid #33a8db;
+  border-bottom: 1px solid #33a8db;
+  /margin-top: 50px;
 }
 
 #transform-world::before {
@@ -177,7 +173,6 @@ main {
   text-shadow: 3px 2px 0px #33a8db;
 }
 
-/* Desafios Profissionais */
 #professional-challenges {
   text-align: center;
   padding: 60px 20px;
@@ -194,9 +189,6 @@ main {
 }
 
 #professional-challenges img {
-  /* max-width: 90%;
-  border-radius: 10px;
-  margin-bottom: 20px; */
   width: 659px;
   height: 429px;
 }
@@ -207,7 +199,6 @@ main {
   color: #ccc;
 }
 
-/* Rodapé */
 footer {
   text-align: center;
   padding: 40px 20px;
